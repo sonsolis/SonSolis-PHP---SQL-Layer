@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/0e22e90dd2.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"> 
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>SonSolis</title>
+</head>
+<body>
+    <header>
+        <div class = "logo">
+		<h1 class = "logo-text"><a href="index.html"><span>Son</span>Solis</a></h1>
+        </div>
+        <i class="fa fa-bars menu-toggle"></i>
+        <ul class = "nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="navbar/about.html">About</a></li>
+            <li><a href="navbar/services.html">Services</a></li>
+
+            <!--<li><a href="#">Sign Up</a></li>
+            <li><a href="#">Login</a></li> --> 
+
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    Mario Solis
+                    <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+                </a>
+		<!-- 
+                <ul>
+                    <li><a href = "#">Dashboard</a></li>
+                    <li><a href = "#" class="logout">Logout</a></li>
+                </ul>
+		-->
+            </li>
+        </ul>
+    </header>
+    
+    <!--  Page Wrapper -->
