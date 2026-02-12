@@ -1,3 +1,4 @@
+<?php include("path.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,8 +20,7 @@
 </head>
 <body>
 
-    <?php include("app/includes/header.php") ?>
-
+    <?php include(ROOT_PATH . "/app/includes/header.php") ?>
 
     <!--  Page Wrapper -->
     <div class="page-wrapper">
@@ -33,7 +33,7 @@
 			<div class="post">
 				<img src="assets/images/fields/computervision.jpg" alt="" class="slider-image">
 				<div class="post-info">
-					<h4> <a href="html/fields/cvision.html"><br/>                     Computer Vision - Portfolio</a></h4>
+				<h4> <a href=<?php echo BASE_URL . "/pages/fields/cvision.php";?>><br/>                     Computer Vision - Portfolio</a></h4>
 					<i class="far fa-user"> Mario Solis</i>
 					&nbsp;
 					<i class="far fa-calendar"> July 4, 2025</i>
@@ -210,7 +210,7 @@
    <!-- Content -->
     
     <!-- Footer -->
-    <?php include("app/includes/footer.php") ?>
+    <?php include(ROOT_PATH . "/app/includes/footer.php") ?>
     <!-- Footer -->
 
     <!-- JQuery -->

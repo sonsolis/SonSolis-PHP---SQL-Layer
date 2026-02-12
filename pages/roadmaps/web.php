@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/0e22e90dd2.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"> 
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <title>Web Developer - Roadmap</title>
+</head>
+<body>
+    <header>
+        <div class = "logo">
+		<h1 class = "logo-text"><a href="../../index.html"><span>Son</span>Solis</a></h1>
+        </div>
+        <i class="fa fa-bars menu-toggle"></i>
+        <ul class = "nav">
+<li><a href="../../index.html">Home</a></li>
+t<li><a href="../navbar/about.html">About</a></li>
+
+            <!--<li><a href="#">Sign Up</a></li>
+            <li><a href="#">Login</a></li> --> 
+
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    Mario Solis
+                    <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+                </a>
+<!--|
+                <ul>
+                    <li><a href = "#">Dashboard</a></li>
+                    <li><a href = "#" class="logout">Logout</a></li>
+                </ul>
+-->|
+            
+            </li>
+        </ul>
+    </header>
+    
+    <!--  Page Wrapper -->
+    <div class="page-wrapper">   
+	    <!-- Content -->
+	    <div class="content clearfix">
+		<div class="main-content single">
+			<h1 class="post-title">Web Developer - Roadmap</h1>
+
+			<center><img class="post-img" src="../../images/roadmaps/Web_Development_Roadmap.jpg" alt=""></center>
+			<div class="post-content">
+				<center><h4>Beginner</h4></center>
+				<p><li>Personal Portfolio Website</li></p>
+				<p><li>Responsive Landing Page</li></p>
+				<p><li>JavaScript To-Do List App</li></p>
+				<p><li>Multi-Page Blog Site with HTML/CSS</li></p>
+				<p><li>Weather App Using API</li></p>
+				<p></p>
+				<p></p>
+				<center><h4>Intermediate</h4></center>
+				<p><li>Full CRUS Notes App</li></p>
+				<p><li>User Auth System with Node & Express</li></p>
+				<p><li>Real-time Chat App with Socket.io</li></p>
+				<p><li>E-Commerce Storefront</li></p>
+				<p><li>RESTful API Design and Testing</li></p>
+				<p></p>
+				<center><h4>Advanced</h4></center>
+				<p><li>Build Your Own Frontend Framework</li></p>
+				<p><li>Full-Stack App with React & Express</li></p>
+				<p><li>Serverless Function App with Firebase</li></p>
+				<p><li>WebSockets-Based Game or Live Tool</li></p>
+				<p><li>OAuth Integration with Google/GitHub</li></p>
+				<p><li>Build Your Own CMS</li></p>
+				<p><li>Progressive Web App (PWA)</li></p>
+				<p><li>Role-Based Access Control System</li></p>
+				<p><li>Real-Time Analytics Dashboard</li></p>
+				<p><li>SEO & Performance-Optimized Static Site</li></p>
+				<p><li>CI/CD for Web Projects with GitHub Actions</li></p>
+				<p><li>Scalable Microservice Web Architecture</li></p>
+				<p><li>Web App Deployed via Docker & Kubernetes</li></p>
+				<p><li>Profitable SaaS</li></p>
+				<p></p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+
+		<!-- Sidebar -->
+		<div class="sidebar single">
+			<div class="section popular">
+				<h2 class="section-title">Roadmaps</h2>
+				<div class="post clearfix">
+					<img src="../../images/roadmaps/Computer_Vision_Roadmap.jpg" alt="">
+					<a href="cvision.html" class="title"><h4>Computer Vision - Roadmap</h4></a>
+				</div>
+				<div class="post clearfix">
+					<img src="../../images/roadmaps/Embedded_Roadmap.jpg" alt="">
+					<a href="embedded.html" class="title"><h4>Embedded - Roadmap</h4></a>
+				</div>
+				<div class="post clearfix">
+					<img src="../../images/roadmaps/Machine_Learning_Roadmap.jpg" alt="">
+					<a href="mlearning.html" class="title"><h4>Machine Learning - Roadmap</h4></a>
+				</div>
+				<div class="post clearfix">
+					<img src="../../images/roadmaps/Data_Scientist_Roadmap.jpg" alt="">
+					<a href="datascience.html" class="title"><h4>Data Science - Roadmap</h4></a>
+				</div>
+			</div>
+			<div class="section topics">
+				<h2 class="section-title">Topics</h2>
+				<ul>
+					<li><a href="#">Quotes</a></li>
+					<li><a href="#">Motivation</a></li>
+					<li><a href="#">Inspiration</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Sidebar -->
+	    </div>
+	   <!-- Content -->
+    </div>
+    <!-- Page Wrapper // -->
+
+    
+    <!-- JQuery -->
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js></script>
+    <!-- Footer  -->
+    <div class="footer">
+	<div class="footer-content">
+		<div class="footer-section about">
+			<h1 class="logo-text"><span>Son</span>Solis</h1>
+			<p>
+				SonSolis is a sight dedicated to the study of computer science, mathematics and physics. It is centred around various sub fields of computer science, particularly computer vision, machine learning, data science, embedded programming and web development. 
+			</p>
+			<div class="contact">
+			</div>
+			<br/>
+			<div class="socials">
+				<a href="https://github.com/sonsolis"><i class="fab fa-github" target="__blank"></i></a>
+				<a href="https://linkedin.com/in/mario-solis-97140b1a9" target="__blank"><i class="fab fa-linkedin"></i></a>
+			</div>
+		</div>
+		<div class="footer-section links">
+			<img src="../../images/unknown_Sun.png" alt="" class="footer-image">
+		</div>
+		<div class="footer-section contact-form">
+			<h2>In Progress</h2>
+			<ul>
+				<a href="https://www.youtube.com/watch?v=fPYOhQn95fw&list=PL3pyLl-dgiqD0eKYJ-XSxrHaRh-zsA2tP" target="__blank"><li>PHP/SQL Series</li></a>
+				<a href="https://www.youtube.com/watch?v=pCQQaeC9WRE&list=PLfFghEzKVmjvzS4DILijsdQk27Ew7xIPu" target="__blank"><li>SVM from Scratch</li></a>
+				<a href="https://www.youtube.com/watch?v=8hly31xKli0" target="__blank"><li>Data Structures Review</li></a>
+				<a href="https://www.youtube.com/watch?v=bvn_HYpix6s" target="__blank"><li>React Native Project</li></a>
+			</ul>
+		</div>
+	</div>
+
+	<div class="footer-bottom">
+		&copy; sonsolis.com | Designed by Mario Solis
+	</div>
+    </div>
+    <!-- Footer -->
+
+    <!-- Slick Carousel -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
+
